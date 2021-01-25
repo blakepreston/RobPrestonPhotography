@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body,
 button {
   font-family: "Quicksand", sans-serif;
@@ -5,7 +9,7 @@ button {
 }
 
 h1 {
-  font-family: "Archivo", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 #navBar {
@@ -95,6 +99,11 @@ h1 {
   padding: 1em;
 }
 
+#buttonID a {
+  text-decoration: none;
+  color: black;
+}
+
 #images img {
   display: inline-block;
   width: 25em;
@@ -106,4 +115,29 @@ h1 {
 
 #images {
   text-align: center;
+}
+
+#contact-me {
+  background-image: url("images/pinkbridge.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 25em;
+  height: 20em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.2em;
+  margin-left: 8.8em;
+}
+
+#contact-me h1 {
+  color: white;
+  text-align: center;
+}
+
+#contact-me form {
+  color: white;
+  margin-top: 0.2em;
+  text-align: center;
+  margin-top: 2em;
 }
