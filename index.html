@@ -7,13 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
-    <title>Rob Preston | Photography</title>
+    <title>RSP Photography</title>
 </head>
 <body>
     <div id="navBar">
         <nav>
             <ul id="navUL">
-                <a href="#" id="navElements" class="NavLogo"><li class="NavLogoH1">Rob Preston | Photography</li></a>
+                <a href="#" id="navElements" class="NavLogo"><li class="NavLogoH1">RSP Photography</li></a>
                 <a href="#" id="navElements"><li>About</li></a>
                 <a href="#picWrapper" id="navElements"><li>My Work</li></a>
                 <a href="#contact-me" id="navElements"><li>Contact Me</li></a>
@@ -28,6 +28,7 @@
             </div>
     
             <div id="aboutPic">
+                <img src="images/bridgePic.jpg" alt="bridge">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus augue 
                     erat, feugiat a laoreet id, suscipit non elit. Vestibulum efficitur felis 
@@ -39,50 +40,80 @@
                     sed venenatis felis consequat et.</p>
             </div>
 
-            <div id="button">
+            <!-- <div id="button">
                 <button id="buttonID"><a href="#picWrapper">See My Work</a></button>
-            </div>
-        </div>
+            </div> -->
 
-        <div id="picWrapper">
-            <div id="images">
-                <a href=""><img src="images/boat.jpg" alt="boat"></a>
-                <a href=""><img src="images/bridgeSunset.jpg" alt="bridge"></a>
-                <a href=""><img src="images/mushroom.jpg" alt="mushroom"></a>
-            </div>
-
-            <div id="images">
-                <a href=""><img src="images/bird.jpg" alt="boat"></a>
-                <a href=""><img src="images/bolts.jpg" alt="bridge"></a>
-                <a href=""><img src="images/floaters.jpg" alt="mushroom"></a>
-            </div>
-
-            <div id="images">
-                <a href=""><img src="images/purplePlant.jpg" alt="boat"></a>
-                <a href=""><img src="images/rainbow.jpg" alt="bridge"></a>
-                <a href=""><img src="images/texture.jpg" alt="mushroom"></a>
-            </div>
-        </div>
-
-        <div class="contact-me" id="contact-me">
-            <h1>Contact Me</h1>
-            <form method="POST" data-netlify="true">
-              <div>Email</div>
-              <input type="text" name="subject" />
+            <div id="picWrapper">
+                <div id="images">
+                    <a href="boatPics/boat.html">
+                        <img src="images/boat.jpg" alt="boat" id="boatImage">
+                        
+                    </a>
+                    <a href=""><img src="images/bridgeSunset.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/mushroom.jpg" alt="mushroom"></a>
+                </div>
     
-              <div>Subject</div>
-              <input type="text" name="subject" />
-          
-              <div>Message</div>
-              <textarea name="body"></textarea>
-          
-              <br/>
-              <input type="submit" value="Send" />
-          </form>
-        </div>
-  
-
+                <div id="images">
+                    <a href=""><img src="images/bird.jpg" alt="boat"></a>
+                    <a href=""><img src="images/bolts.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/floaters.jpg" alt="mushroom"></a>
+                </div>
     
+                <div id="images">
+                    <a href=""><img src="images/purplePlant.jpg" alt="boat"></a>
+                    <a href=""><img src="images/rainbow.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/texture.jpg" alt="mushroom"></a>
+                </div>
 
+                <div id="images">
+                    <a href="boatPics/boat.html"><img src="images/boat.jpg" alt="boat"></a>
+                    <a href=""><img src="images/bridgeSunset.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/mushroom.jpg" alt="mushroom"></a>
+                </div>
+    
+                <div id="images">
+                    <a href=""><img src="images/bird.jpg" alt="boat"></a>
+                    <a href=""><img src="images/bolts.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/floaters.jpg" alt="mushroom"></a>
+                </div>
+    
+                <div id="images">
+                    <a href=""><img src="images/purplePlant.jpg" alt="boat"></a>
+                    <a href=""><img src="images/rainbow.jpg" alt="bridge"></a>
+                    <a href=""><img src="images/texture.jpg" alt="mushroom"></a>
+                </div>
+    
+            </div>
+
+            <div class="contact-me" id="contact-me">
+                <div id="contactForm">
+                    <h1>Contact Me</h1>
+                    <form method="POST" data-netlify="true">
+                      <div>Email</div>
+                      <input type="text" name="subject" />
+            
+                      <div>Subject</div>
+                      <input type="text" name="subject" />
+                  
+                      <div>Message</div>
+                      <textarea name="body"></textarea>
+                  
+                      <br/>
+                      <input type="submit" value="Send" />
+                  </form>
+                </div>
+            </div>
+
+            <div>
+                <h3></h3>
+            </div>
+
+        </div>
+
+        
+    
+        
+<script src="main.js"></script>
 </body>
 </html>

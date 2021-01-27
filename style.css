@@ -17,6 +17,7 @@ h1 {
   padding-top: 0.3em;
   padding-right: 2.5em;
   padding-bottom: 1em;
+  background-color: white;
 }
 
 .NavLogo {
@@ -43,12 +44,15 @@ h1 {
   display: grid;
   height: 100vh;
   gap: 0.5em;
-  grid-template-columns: 0.3fr 0.3fr 0.01fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1r 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas:
     " profile aboutPic ."
-    ". button .";
+    /* ". button ." */
+    "picWrapper picWrapper picWrapper"
+    "contact-me contact-me contact-me";
   justify-content: center;
+  max-width: 2400px;
 }
 
 #profilePic {
@@ -64,18 +68,17 @@ h1 {
 #aboutPic {
   width: 45em;
   height: 30em;
-  background-size: cover;
   grid-area: aboutPic;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),
-    url(images/bridgePic.jpg);
-  background-repeat: no-repeat;
-  color: white;
+  color: black;
 }
 
 #aboutPic h1 {
+  position: relative;
+  margin-top: -60%;
   margin-left: 5%;
   font-size: 2.2em;
   font-weight: 300;
+  color: white;
 }
 
 #aboutPic p {
@@ -83,11 +86,17 @@ h1 {
   margin-left: 10%;
   font-size: 1.4em;
   font-weight: 150;
+  color: white;
 }
 
-#button {
+#aboutPic img {
+  width: 46em;
+  height: 30em;
+}
+
+/* #button {
   grid-area: button;
-  margin-top: 3em;
+  margin-top: 5%;
   margin-left: 3em;
 }
 
@@ -102,6 +111,12 @@ h1 {
 #buttonID a {
   text-decoration: none;
   color: black;
+} */
+
+#picWrapper {
+  grid-area: picWrapper;
+  margin-top: 0.2em;
+  /* width: 100vh; */
 }
 
 #images img {
@@ -118,26 +133,41 @@ h1 {
 }
 
 #contact-me {
-  background-image: url("images/pinkbridge.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   display: inline-block;
+  grid-area: contact-me;
   width: 25em;
-  height: 20em;
-  margin-left: 0.2em;
-  margin-right: 0.2em;
-  margin-top: 0.2em;
-  margin-left: 8.8em;
+  height: 15em;
+  border: 2px solid black;
+  padding: 2em;
+  margin: auto;
 }
 
 #contact-me h1 {
-  color: white;
+  color: black;
   text-align: center;
 }
 
 #contact-me form {
-  color: white;
-  margin-top: 0.2em;
+  color: black;
   text-align: center;
-  margin-top: 2em;
 }
+
+/* Making the navbar stay at the top */
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/*************************************/
+
+/* Hover Effect for the images */
