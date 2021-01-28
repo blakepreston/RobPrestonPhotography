@@ -6,6 +6,7 @@ body,
 button {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
+  z-index: 1;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
   padding-top: 0.3em;
   padding-right: 2.5em;
   padding-bottom: 1em;
+  z-index: 2;
 }
 
 .NavLogo {

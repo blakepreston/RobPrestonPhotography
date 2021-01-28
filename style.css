@@ -6,6 +6,7 @@ body,
 button {
   font-family: "Quicksand", sans-serif;
   font-weight: 300;
+  z-index: 1;
 }
 
 h1 {
@@ -18,6 +19,7 @@ h1 {
   padding-right: 2.5em;
   padding-bottom: 1em;
   background-color: white;
+  z-index: 2;
 }
 
 .NavLogo {
@@ -50,7 +52,7 @@ h1 {
     " profile aboutPic ."
     /* ". button ." */
     "picWrapper picWrapper picWrapper"
-    "contact-me contact-me contact-me";
+    "contact-me contact-me .";
   justify-content: center;
   max-width: 2400px;
 }
@@ -137,8 +139,7 @@ h1 {
   grid-area: contact-me;
   width: 25em;
   height: 15em;
-  border: 2px solid black;
-  padding: 2em;
+
   margin: auto;
 }
 
@@ -152,6 +153,10 @@ h1 {
   text-align: center;
 }
 
+.footer {
+  display: block;
+  color: black;
+}
 /* Making the navbar stay at the top */
 
 .content {
@@ -171,3 +176,7 @@ h1 {
 /*************************************/
 
 /* Hover Effect for the images */
+
+#images img:hover {
+  opacity: 50%;
+}
