@@ -13,6 +13,10 @@ h1 {
   font-family: "Quicksand", sans-serif;
 }
 
+#mainPage {
+  margin-top: 1%;
+}
+
 #navBar {
   text-align: center;
   padding-top: 0.3em;
@@ -47,14 +51,28 @@ h1 {
   height: 100vh;
   gap: 0.5em;
   grid-template-columns: 1fr 1r 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas:
     " profile aboutPic ."
-    /* ". button ." */
+    "products products products"
     "picWrapper picWrapper picWrapper"
-    "contact-me contact-me .";
+    "contact-me contact-me contact-me";
   justify-content: center;
   max-width: 2400px;
+}
+
+#products {
+  grid-area: products;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 3%;
+  margin-left: 3%;
+  text-align: center;
+}
+
+#products div {
+  display: inline;
+  padding: 5%;
 }
 
 #profilePic {
@@ -96,29 +114,9 @@ h1 {
   height: 30em;
 }
 
-/* #button {
-  grid-area: button;
-  margin-top: 5%;
-  margin-left: 3em;
-}
-
-#buttonID {
-  font-weight: 550;
-  background-color: white;
-  color: black;
-  border: 2px solid black;
-  padding: 1em;
-}
-
-#buttonID a {
-  text-decoration: none;
-  color: black;
-} */
-
 #picWrapper {
   grid-area: picWrapper;
   margin-top: 0.2em;
-  /* width: 100vh; */
 }
 
 #images img {
@@ -173,6 +171,92 @@ h1 {
   padding-top: 60px;
 }
 
+/*************************************/
+/* Adding media query for screen sizes */
+
+@media (max-width: 800px) {
+  .wrapper {
+    display: grid;
+    height: 100vh;
+    gap: 0.5em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "profile"
+      "aboutPic"
+      "products"
+      "picWrapper"
+      "contact-me";
+    justify-content: center;
+  }
+
+  #products div {
+    padding: 2.5%;
+  }
+
+  #profile {
+    text-align: center;
+  }
+
+  #profile img {
+    margin: 0;
+  }
+
+  #navElements li {
+    display: inline;
+    padding: 0.3em;
+    margin-right: 0.1em;
+  }
+
+  .NavLogo {
+    margin-left: -0.5em;
+    padding-right: 2em;
+  }
+
+  #aboutPic img {
+    display: block;
+    text-align: center;
+  }
+
+  #aboutPic {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    display: grid;
+    height: 100vh;
+    gap: 0.5em;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+      "profile"
+      "aboutPic"
+      "products"
+      "picWrapper"
+      "contact-me";
+    justify-content: center;
+  }
+
+  #profile {
+    text-align: center;
+  }
+
+  /* #profile img {
+    width: 400px;
+  } */
+
+  #aboutPic {
+    text-align: center;
+  }
+
+  #aboutPic img {
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
 /*************************************/
 
 /* Hover Effect for the images */
