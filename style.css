@@ -166,12 +166,13 @@ h1 {
 
 /*************************************/
 /* Adding media query for screen sizes */
-@viewport {
-  zoom: 1;
-  width: extend-to-zoom;
-}
 
 @media (max-width: 1000px) {
+  @viewport {
+    zoom: 1;
+    width: extend-to-zoom;
+  }
+
   .wrapper {
     display: grid;
     height: 100vh;
@@ -185,18 +186,17 @@ h1 {
       "picWrapper"
       "contact-me";
     justify-content: center;
+    margin: 0 auto;
   }
 
   #products div {
     padding: 2.5%;
   }
 
- 
-
   #profile img {
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto;
   }
 
   #navElements li {
@@ -215,13 +215,9 @@ h1 {
     height: 30rem;
   }
 
- 
-
   #aboutPic {
-    
     text-align: center;
     width: 100%;
-    
   }
 
   #aboutPic h1 {
@@ -232,7 +228,7 @@ h1 {
     font-weight: 300;
     color: white;
   }
-  
+
   #aboutPic p {
     margin-right: 10%;
     margin-left: 10%;
@@ -244,7 +240,7 @@ h1 {
   #navBar {
     overflow: hidden;
     text-align: center;
-    
+
     padding-bottom: -7em;
   }
 
@@ -257,7 +253,6 @@ h1 {
     top: 0;
     width: 120%;
     margin: 0;
-    
   }
 
   /* .sticky + .content {
@@ -265,58 +260,21 @@ h1 {
   } */
 }
 
-/* @media (max-width: 600px) {
+@media (max-width: 600px) {
+  body {
+    width: 95%;
+    margin-left: 7em;
+  }
+
   #profile {
-    margin-left: 25%;
+    text-align: center;
+    width: 100%;
   }
 
-  #navElements li {
-    font-size: 15px;
-    gap: 1em;
+  #profile img {
+    padding-left: 1em;
+    background-color: transparent;
   }
-
-  #navElements {
-    display: inline;
-    margin: 0;
-    padding: 0;
-    margin-right: -10%;
-  }
-
-  #contact-me {
-    margin-left: 32%;
-  }
-
-  #products {
-    margin-left: 25%;
-  } */
-
-  /* #aboutPic p {
-    margin-left: 35%;
-    /* margin-right: 20%; */
-  /* } */
-/* 
-  #aboutPic h1 {
-    margin-left: 25%;
-  }
-
-  #picWrapper img {
-    margin-left: 25%;
-  }  */
-
-  /* .content {
-    padding: 15px;
-  }
-
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 120%;
-    margin-left: -25%;
-  }
-
-  .sticky + .content {
-    padding-top: 10px;
-  } */
 }
 
 /*************************************/
