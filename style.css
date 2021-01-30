@@ -218,6 +218,21 @@ h1 {
   #aboutPic {
     text-align: center;
   }
+
+  .content {
+    padding: 15px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 120%;
+    margin-left: -25%;
+  }
+
+  .sticky + .content {
+    padding-top: 10px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -261,7 +276,7 @@ h1 {
     margin-left: 25%;
   }
 
-  .content {
+  /* .content {
     padding: 15px;
   }
 
@@ -274,7 +289,7 @@ h1 {
 
   .sticky + .content {
     padding-top: 10px;
-  }
+  } */
 }
 
 /*************************************/
