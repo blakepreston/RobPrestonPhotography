@@ -161,7 +161,7 @@ h1 {
 }
 
 .sticky + .content {
-  padding-top: 60px;
+  padding-top: 10px;
 }
 
 /*************************************/
@@ -221,35 +221,57 @@ h1 {
 }
 
 @media (max-width: 600px) {
-  .wrapper {
-    display: grid;
-    height: 100vh;
-    gap: 0.5em;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas:
-      "profile"
-      "aboutPic"
-      "products"
-      "picWrapper"
-      "contact-me";
-    justify-content: center;
-  }
-
   #profile {
-    text-align: center;
-    margin-left: 15%;
+    margin-left: 25%;
   }
 
   #navElements li {
     font-size: 15px;
   }
 
-  #aboutPic {
-    text-align: center;
+  #navElements {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: -10%;
   }
 
-  #aboutPic img {
+  #contact-me {
+    margin-left: 32%;
+  }
+
+  #products {
+    margin-left: 25%;
+  }
+
+  #aboutPic {
+  }
+
+  #aboutPic p {
+    margin-left: 35%;
+    /* margin-right: 20%; */
+  }
+
+  #aboutPic h1 {
+    margin-left: 25%;
+  }
+
+  #picWrapper img {
+    margin-left: 25%;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 10px;
   }
 }
 
