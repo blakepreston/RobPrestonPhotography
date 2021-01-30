@@ -13,10 +13,6 @@ h1 {
   font-family: "Quicksand", sans-serif;
 }
 
-#mainPage {
-  margin-top: 1%;
-}
-
 #navBar {
   text-align: center;
   padding-top: 0.3em;
@@ -133,11 +129,8 @@ h1 {
 }
 
 #contact-me {
-  display: inline-block;
+  display: inline;
   grid-area: contact-me;
-  width: 25em;
-  height: 15em;
-
   margin: auto;
 }
 
@@ -173,6 +166,10 @@ h1 {
 
 /*************************************/
 /* Adding media query for screen sizes */
+@viewport {
+  zoom: 1;
+  width: extend-to-zoom;
+}
 
 @media (max-width: 800px) {
   .wrapper {
@@ -243,10 +240,6 @@ h1 {
     text-align: center;
   }
 
-  /* #profile img {
-    width: 400px;
-  } */
-
   #aboutPic {
     text-align: center;
   }
@@ -255,6 +248,12 @@ h1 {
     display: block;
     margin-left: 2%;
     margin-right: 2%;
+  }
+}
+
+@media only screen and(max-width: 280px) {
+  .content {
+    max-width: 80%;
   }
 }
 /*************************************/
