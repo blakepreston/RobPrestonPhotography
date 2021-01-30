@@ -171,7 +171,7 @@ h1 {
   width: extend-to-zoom;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .wrapper {
     display: grid;
     height: 100vh;
@@ -200,7 +200,7 @@ h1 {
   }
 
   #navElements li {
-    display: inline;
+    display: block;
     padding: 0.3em;
     margin-right: 0.1em;
   }
@@ -211,13 +211,40 @@ h1 {
   }
 
   #aboutPic img {
-    display: block;
-    text-align: center;
+    width: 50rem;
+    height: 30rem;
+  }
+
+  #aboutPicCenter{
+    /* justify-items: center; */
+    
   }
 
   #aboutPic {
+    
     text-align: center;
+    width: 100%;
+    
   }
+
+  #aboutPic h1 {
+    position: relative;
+    margin-top: -11em;
+    margin-left: 5%;
+    font-size: 2.2em;
+    font-weight: 300;
+    color: white;
+  }
+  
+  #aboutPic p {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 1.4em;
+    font-weight: 150;
+    color: white;
+  }
+
+  
 
   .content {
     padding: 15px;
@@ -235,7 +262,7 @@ h1 {
   }
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
   #profile {
     margin-left: 25%;
   }
@@ -258,20 +285,20 @@ h1 {
 
   #products {
     margin-left: 25%;
-  }
+  } */
 
-  #aboutPic p {
+  /* #aboutPic p {
     margin-left: 35%;
     /* margin-right: 20%; */
-  }
-
+  /* } */
+/* 
   #aboutPic h1 {
     margin-left: 25%;
   }
 
   #picWrapper img {
     margin-left: 25%;
-  }
+  }  */
 
   /* .content {
     padding: 15px;
