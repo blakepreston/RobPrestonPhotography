@@ -227,6 +227,7 @@ h1 {
 
   #navElements li {
     font-size: 15px;
+    gap: 1em;
   }
 
   #navElements {
@@ -267,7 +268,8 @@ h1 {
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 120%;
+    margin-left: -25%;
   }
 
   .sticky + .content {
