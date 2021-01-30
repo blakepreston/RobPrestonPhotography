@@ -161,7 +161,7 @@ h1 {
 }
 
 .sticky + .content {
-  padding-top: 10px;
+  padding-top: 60px;
 }
 
 /*************************************/
@@ -191,12 +191,12 @@ h1 {
     padding: 2.5%;
   }
 
-  #profile {
-    text-align: center;
-  }
+ 
 
   #profile img {
-    margin: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
   }
 
   #navElements li {
@@ -215,10 +215,7 @@ h1 {
     height: 30rem;
   }
 
-  #aboutPicCenter{
-    /* justify-items: center; */
-    
-  }
+ 
 
   #aboutPic {
     
@@ -244,22 +241,28 @@ h1 {
     color: white;
   }
 
-  
-
-  .content {
-    padding: 15px;
+  #navBar {
+    overflow: hidden;
+    text-align: center;
+    
+    padding-bottom: -7em;
   }
+
+  /* .content {
+    padding: 15px;
+  } */
 
   .sticky {
     position: fixed;
     top: 0;
     width: 120%;
-    margin-left: -25%;
+    margin: 0;
+    
   }
 
-  .sticky + .content {
+  /* .sticky + .content {
     padding-top: 10px;
-  }
+  } */
 }
 
 /* @media (max-width: 600px) {
