@@ -238,6 +238,11 @@ h1 {
 
   #profile {
     text-align: center;
+    margin-left: 15%;
+  }
+
+  #navElements li {
+    font-size: 15px;
   }
 
   #aboutPic {
@@ -245,17 +250,9 @@ h1 {
   }
 
   #aboutPic img {
-    display: block;
-    margin-left: 2%;
-    margin-right: 2%;
   }
 }
 
-@media only screen and(max-width: 280px) {
-  .content {
-    max-width: 80%;
-  }
-}
 /*************************************/
 
 /* Hover Effect for the images */
