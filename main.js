@@ -19,7 +19,7 @@
 // **********************************************************
 window.onload=function(){
   w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
-  var targetWidth = 768;
+  var targetWidth = 1000;
   if ( w >= targetWidth) {     
     //Add your javascript for screens wider than or equal to 768 here
     // When the user scrolls the page, execute myFunction

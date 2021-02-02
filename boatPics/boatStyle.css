@@ -44,9 +44,21 @@ h1 {
   font-size: 1.4em;
 }
 
-#navElements li {
+/* #navElements li {
   display: inline;
   padding: 1em;
+} */
+
+#navElements li {
+  display: block;
+  padding: 0.3em;
+  margin-right: 0.1em;
+  font-size: 1.5rem;
+}
+
+.NavLogo {
+  margin-left: -0.5em;
+  padding-right: 2em;
 }
 
 #navBar a {
