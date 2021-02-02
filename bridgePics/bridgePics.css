@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+}
+
+#images img {
+  display: inline-block;
+  width: 25em;
+  height: 15em;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+  margin-top: 0.2em;
+}
+
+#images {
+  text-align: center;
+}
+
+#navBar {
+  text-align: center;
+  padding-top: 0.3em;
+  padding-right: 2.5em;
+  padding-bottom: 1em;
+  z-index: 2;
+}
+
+.NavLogo {
+  margin-left: -10em;
+  padding-right: 20em;
+}
+
+.NavLogoH1 {
+  font-weight: 999;
+  font-size: 1.4em;
+}
+
+/* #navElements li {
+    display: inline;
+    padding: 1em;
+  } */
+
+#navElements li {
+  display: block;
+  padding: 0.3em;
+  margin-right: 0.1em;
+  font-size: 1.5rem;
+}
+
+.NavLogo {
+  margin-left: -0.5em;
+  padding-right: 2em;
+}
+
+#navBar a {
+  text-decoration: none;
+  color: black;
+}

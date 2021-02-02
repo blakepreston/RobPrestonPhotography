@@ -10,6 +10,10 @@ button {
   z-index: 1;
 }
 
+body {
+  background: #fff;
+}
+
 h1 {
   font-family: Calibre, "San Francisco", "SF Pro Text", Roboto, "Helvetica Neue",
     "Segoe UI", Arial, sans-serif;
@@ -30,6 +34,16 @@ h1 {
   padding-bottom: 1em;
   background-color: white;
   z-index: 2;
+}
+
+#navBar li:hover {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(240, 240, 240, 0.589) 20%,
+    rgba(255, 255, 255, 0.63) 100%
+  );
+  transition: 5ms;
+  border-radius: 50%;
 }
 
 .NavLogo {
