@@ -16,7 +16,17 @@
 //   }
 // }
 
-window.onresize = function(){ location.reload(); }
+
+window.onresize = function(){ 
+  w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
+  if(w <= 780){
+    location.reload();
+  }
+
+  if(w >= 1000){
+    location.reload();
+  }
+   }
 
 // **********************************************************
 window.onload=function(){
