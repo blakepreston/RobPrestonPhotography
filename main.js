@@ -16,6 +16,8 @@
 //   }
 // }
 
+window.onresize = function(){ location.reload(); }
+
 // **********************************************************
 window.onload=function(){
   w = document.documentElement.clientWidth || document.body.clientWidth || window.innerWidth;
