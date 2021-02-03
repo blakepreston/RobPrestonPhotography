@@ -271,14 +271,14 @@ p {
   }
 
   #navElements li {
-    display: block;
+    /* display: block; */
     padding: 0.3em;
     margin-right: 0.1em;
   }
 
   .NavLogo {
     margin-left: -0.5em;
-    padding-right: 2em;
+    padding-right: 3em;
   }
 
   #aboutPic img {
