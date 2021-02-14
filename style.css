@@ -82,6 +82,226 @@ h1 {
   max-width: 2400px;
 }
 
+@keyframes profile {
+  from {
+    transform: translateX(-50px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes aboutPic {
+  from {
+    transform: translateX(50px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images1 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images2 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images3 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images4 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images5 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images6 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images7 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images8 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images9 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images10 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images11 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images12 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images13 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images14 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes images15 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* @keyframes images16 {
+  from {
+    transform: translateX(-20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+@keyframes images17 {
+  from {
+    transform: translateX(20px);
+    opacity: 0.95;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 #footer {
   grid-area: footer;
   text-align: center;
@@ -258,6 +478,215 @@ p {
       "footer";
     justify-content: center;
     margin: 0 auto;
+  }
+
+  @keyframes profile {
+    from {
+      transform: translateX(-50px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images1 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images2 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images3 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images4 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images5 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images6 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images7 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images8 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images9 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images10 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images11 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images12 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images13 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images14 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images15 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images16 {
+    from {
+      transform: translateX(-20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes images17 {
+    from {
+      transform: translateX(20px);
+      opacity: 0.95;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
   }
 
   #products div {
