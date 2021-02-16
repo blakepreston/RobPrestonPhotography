@@ -493,8 +493,8 @@ p {
 
   @keyframes images {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -504,8 +504,8 @@ p {
 
   @keyframes images1 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -515,8 +515,8 @@ p {
 
   @keyframes images2 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -526,8 +526,8 @@ p {
 
   @keyframes images3 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -537,8 +537,8 @@ p {
 
   @keyframes images4 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -548,8 +548,8 @@ p {
 
   @keyframes images5 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -559,8 +559,8 @@ p {
 
   @keyframes images6 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -570,8 +570,8 @@ p {
 
   @keyframes images7 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -581,8 +581,8 @@ p {
 
   @keyframes images8 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -592,8 +592,8 @@ p {
 
   @keyframes images9 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -603,8 +603,8 @@ p {
 
   @keyframes images10 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -614,8 +614,8 @@ p {
 
   @keyframes images11 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -625,8 +625,8 @@ p {
 
   @keyframes images12 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -636,8 +636,8 @@ p {
 
   @keyframes images13 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -647,8 +647,8 @@ p {
 
   @keyframes images14 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -658,8 +658,8 @@ p {
 
   @keyframes images15 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -669,8 +669,8 @@ p {
 
   @keyframes images16 {
     from {
-      transform: translateX(-20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
@@ -680,8 +680,8 @@ p {
 
   @keyframes images17 {
     from {
-      transform: translateX(20px);
-      opacity: 0.95;
+      transform: translateX(0px);
+      opacity: 0.15;
     }
     to {
       transform: translateX(0);
