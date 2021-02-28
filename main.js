@@ -559,17 +559,17 @@ observor.observe(image26);
 
 /**************************/
 
-const about = document.querySelector('.aboutPic');
+// const about = document.querySelector('.aboutPic');
 
-observor = new IntersectionObserver((entries) => {
-  console.log(entries);
+// observor = new IntersectionObserver((entries) => {
+//   console.log(entries);
 
-  if(entries[0].intersectionRatio > 0) {
-    entries[0].target.style.animation = `aboutPic 1s forwards ease-out`;
+//   if(entries[0].intersectionRatio > 0) {
+//     entries[0].target.style.animation = `aboutPic 1s forwards ease-out`;
 
-  }else{
-    entries[0].target.style.animation = 'none';
-  }
-})
+//   }else{
+//     entries[0].target.style.animation = 'none';
+//   }
+// })
 
-observor.observe(about);
+// observor.observe(about1);
