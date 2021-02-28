@@ -406,6 +406,159 @@ observor.observe(image17);
 
 /**************************/
 
+const image18 = document.querySelector('.images18');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images18 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image18);
+
+/**************************/
+
+const image19 = document.querySelector('.images19');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images19 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image19);
+
+/**************************/
+
+const image20 = document.querySelector('.images20');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images20 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image20);
+
+/**************************/
+
+const image21 = document.querySelector('.images21');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images21 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image21);
+
+/**************************/
+
+const image22 = document.querySelector('.images22');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images22 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image22);
+
+/**************************/
+
+const image23 = document.querySelector('.images23');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images23 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image23);
+
+/**************************/
+
+const image24 = document.querySelector('.images24');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images24 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image24);
+
+/**************************/
+
+const image25 = document.querySelector('.images25');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images25 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image25);
+
+/**************************/
+
+const image26 = document.querySelector('.images26');
+
+observor = new IntersectionObserver((entries) => {
+  console.log(entries);
+
+  if(entries[0].intersectionRatio > 0) {
+    entries[0].target.style.animation = `images26 1s forwards ease-out`;
+
+  }else{
+    entries[0].target.style.animation = 'none';
+  }
+})
+
+observor.observe(image26);
+
+/**************************/
+
 const about = document.querySelector('.aboutPic');
 
 observor = new IntersectionObserver((entries) => {
