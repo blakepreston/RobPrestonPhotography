@@ -387,6 +387,7 @@ h1 {
   margin-right: 3%;
   margin-left: 3%;
   text-align: center;
+  font-weight: 700;
 }
 
 #products div {
@@ -888,24 +889,24 @@ p {
   }
 
   #aboutPic {
-    text-align: center;
+    text-align: left;
     width: 100%;
   }
 
   #aboutPic h1 {
     position: relative;
     margin-top: -11em;
-    margin-left: 5%;
+    margin-left: 10%;
     font-size: 2.2em;
-    font-weight: 300;
     color: white;
+    font-weight: 700;
   }
 
   #aboutPic p {
     margin-right: 10%;
     margin-left: 10%;
     font-size: 1.4em;
-    font-weight: 150;
+    font-weight: 460;
     color: white;
   }
 
@@ -931,7 +932,7 @@ p {
   } */
 }
 
-@media (max-width: 780px) {
+@media (max-width: 1000px) {
   #navBar {
     display: none;
   }
